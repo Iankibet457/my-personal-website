@@ -3,19 +3,27 @@
   } */
 
   .nav-link{
-    background-color: aqua;
+    background-color:blue;
     width: 99vw;
-    height: 50px;
+    height: 60px;
     top: 0;
-    position: fixed;
+    /* position: fixed; */
     left: 0;
+}
+.nav-items{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    color: aliceblue;
+    font-size: large;
+    font-family: fantasy;
+    
+
   }
 
   body{
     background-image: url(./images/site\ background.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     /* filter: blur(8px) */
     backdrop-filter: blur(1px);
@@ -27,6 +35,7 @@ h1{
     color: aliceblue;
     font-family: fantasy;
     font-style: italic;
+    font-size: xx-large;
 }
 
 h3{
@@ -41,6 +50,7 @@ h3#gta5{
     background-image: url(./images/V.jpg);
     background-size: 200px 200px;
     /* opacity:calc(80%); */
+    border: 2px solid black;
     
     
 }
@@ -52,6 +62,7 @@ h3#fifa23{
     background-image:url(./images/fifa-main.jpg);
     background-size: 200px 200px;
     /* opacity:calc(65%); */
+    border: 2px solid black;
 
     
 }
@@ -63,6 +74,7 @@ h3#nba23{
     background-image:url(./images/nba.jpg);
     background-size: 200px 200px;
     /* opacity:calc(75%); */
+    border: 2px solid black;
     
 }
 
@@ -73,6 +85,7 @@ h3#cod{
     background-image:url(./images/cod.jpg);
     background-size: 200px 200px;
     /* opacity:calc(75%); */
+    border: 2px solid black;
 
 }
 
@@ -83,6 +96,7 @@ h3#fortnite{
     background-image:url(./images/co2ekt.jpg);
     background-size: 200px 200px;
     /* opacity:calc(90%); */
+    border: 2px solid black;
     
 }
 
@@ -249,6 +263,7 @@ h3#gow{
     background-image: url(./images/God_of_War_4_cover.jpg);
     background-size: 200px 200px;
     /* opacity:calc(90%); */
+    border: 2px solid black;
 
 }
 h3#sm{
@@ -258,6 +273,7 @@ h3#sm{
     background-image:url(./images/Spider-Man_PS4_cover.jpg);
     background-size: 200px 200px;
     /* opacity:calc(85%); */
+    border: 2px solid black;
 
 }
 h3#bf{
@@ -267,6 +283,7 @@ h3#bf{
     background-image: url(./images/Battlefield_4_cover_art.jpg);
     background-size: 200px 200px;
     /* opacity:calc(80%); */
+    border: 2px solid black;
 
 }
 h3#mc{
@@ -276,6 +293,7 @@ h3#mc{
     background-image: url(./images/Minecraft_cover.png);
     background-size: 200px 200px;
     /* opacity:calc(85%); */
+    border: 2px solid black;
 
 }
 h3#al{
@@ -285,6 +303,7 @@ h3#al{
     background-image: url(./images/Apex_legends_cover.jpg);
     background-size: 200px 200px;
     /* opacity:calc(80%); */
+    border: 2px solid black;
 
 }
 
@@ -297,5 +316,11 @@ div#div1{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 50px;
+    /* border: 2px solid black; */
+    /* background:gray; */
+    /* backdrop-filter: blur(1px); */
+    /* background-image: url(./images/site\ background.jpg); */
+
 
 }
