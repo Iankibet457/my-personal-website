@@ -2,6 +2,18 @@
     background: blue;
   } */
 
+  .nav-link{
+    background-color: aqua;
+    width: 99vw;
+    height: 50px;
+    top: 0;
+    position: fixed;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+
   body{
     background-image: url(./images/site\ background.jpg);
     background-size: cover;
