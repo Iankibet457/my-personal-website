@@ -5,6 +5,9 @@
   body{
     background-image: url(./images/site\ background.jpg);
     background-size: cover;
+    /* filter: blur(8px) */
+    backdrop-filter: blur(1px);
+    
 }
 
 h1{
@@ -25,7 +28,7 @@ h3#gta5{
     /* border: 2px solid white; */
     background-image: url(./images/V.jpg);
     background-size: 200px 200px;
-    opacity:calc(80%);
+    /* opacity:calc(80%); */
     
     
 }
@@ -36,7 +39,7 @@ h3#fifa23{
     /* border: 2px solid white; */
     background-image:url(./images/fifa-main.jpg);
     background-size: 200px 200px;
-    opacity:calc(65%);
+    /* opacity:calc(65%); */
 
     
 }
@@ -47,7 +50,7 @@ h3#nba23{
     /* border: 2px solid white; */
     background-image:url(./images/nba.jpg);
     background-size: 200px 200px;
-    opacity:calc(75%);
+    /* opacity:calc(75%); */
     
 }
 
@@ -57,7 +60,7 @@ h3#cod{
     /* border: 2px solid white; */
     background-image:url(./images/cod.jpg);
     background-size: 200px 200px;
-    opacity:calc(75%);
+    /* opacity:calc(75%); */
 
 }
 
@@ -67,7 +70,7 @@ h3#fortnite{
     /* border: 2px solid white; */
     background-image:url(./images/co2ekt.jpg);
     background-size: 200px 200px;
-    opacity:calc(90%);
+    /* opacity:calc(90%); */
     
 }
 
@@ -233,7 +236,7 @@ h3#gow{
     /* border: 2px solid white; */
     background-image: url(./images/God_of_War_4_cover.jpg);
     background-size: 200px 200px;
-    opacity:calc(90%);
+    /* opacity:calc(90%); */
 
 }
 h3#sm{
@@ -242,7 +245,7 @@ h3#sm{
     /* border: 2px solid white; */
     background-image:url(./images/Spider-Man_PS4_cover.jpg);
     background-size: 200px 200px;
-    opacity:calc(85%);
+    /* opacity:calc(85%); */
 
 }
 h3#bf{
@@ -251,7 +254,7 @@ h3#bf{
     /* border: 2px solid white; */
     background-image: url(./images/Battlefield_4_cover_art.jpg);
     background-size: 200px 200px;
-    opacity:calc(80%);
+    /* opacity:calc(80%); */
 
 }
 h3#mc{
@@ -260,7 +263,7 @@ h3#mc{
     /* border: 2px solid white; */
     background-image: url(./images/Minecraft_cover.png);
     background-size: 200px 200px;
-    opacity:calc(85%);
+    /* opacity:calc(85%); */
 
 }
 h3#al{
@@ -269,11 +272,18 @@ h3#al{
     /* border: 2px solid white; */
     background-image: url(./images/Apex_legends_cover.jpg);
     background-size: 200px 200px;
-    opacity:calc(80%);
+    /* opacity:calc(80%); */
 
 }
 
 button{
     font-family: fantasy;
     font-style: italic;
+}
+
+div#div1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
 }
