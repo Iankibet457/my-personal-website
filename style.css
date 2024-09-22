@@ -12,13 +12,19 @@
 }
 .nav-items{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     list-style: none;
     color: aliceblue;
     font-size: large;
     font-family: fantasy;
+
     
 
+  }
+  .nav2{
+    background-color: rgb(199, 69, 69);
+    height: 50px;
+    width: 99vw;
   }
 
   body{
@@ -26,7 +32,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* filter: blur(8px) */
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(4px);
     
 }
 
@@ -36,6 +42,7 @@ h1{
     font-family: fantasy;
     font-style: italic;
     font-size: xx-large;
+    letter-spacing: 40px;
 }
 
 h3{
